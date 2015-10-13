@@ -31,11 +31,14 @@ The following placeholders are available:
 - `%item.date%` - The publication time of the item in format YYYY-MM-DD
 - `%item.time%` - The publication time of the item in format HHMMSS
 
+By default the values come from the actually RSS feeds and are applied to the `feed_format` and `item_format` directives.
+However you can define static values using the `placeholders` map.
+
 ## Usage
 
 	podcastd /path/to/podcastd.yml
 
-**I haven't readlly tested this thing ...**
+**I haven't really tested this thing ...**
 	
 ## License
 
